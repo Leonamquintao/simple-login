@@ -6,40 +6,39 @@
   border-radius: 10px;
   height: 600px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr
 }
 
 .close-btn {
   position: absolute;
   top: 2%;
   right: 3%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   z-index: 1;
   color: #fff;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .form-content-left {
-  background: linear-gradient(
-    90deg,
+  background: linear-gradient(90deg,
     rgb(39, 176, 255) 0%,
     rgb(0, 232, 236) 100%
   );
   border-radius: 10px 0 0 10px;
-  position: relative;
+  position: relative
 }
 
 .form-content-right {
   border-radius: 0 10px 10px 0;
   position: relative;
-  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%)
 }
 
 .form-success {
   text-align: center;
   font-size: 24px;
   margin-top: 80px;
-  color: #fff;
+  color: #fff
 }
 
 .form-img {
@@ -48,7 +47,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 .form-img-2 {
@@ -57,7 +56,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 
@@ -71,7 +70,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 .form h1 {
@@ -79,25 +78,25 @@
   text-align: start;
   width: 80%;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #fff
 }
 
 .form-inputs {
   margin-bottom: 0.5rem;
-  width: 80%;
+  width: 80%
 }
 
 .form-inputs p {
   font-size: 0.8rem;
   margin-top: 0.5rem;
-  color: #f00e0e;
+  color: #f00e0e
 }
 
 .form-label {
   display: inline-block;
   font-size: 0.8rem;
   margin-bottom: 6px;
-  color: #fff;
+  color: #fff
 }
 
 .form-input {
@@ -107,12 +106,12 @@
   border-radius: 2px;
   height: 40px;
   width: 100%;
-  border: none;
+  border: none
 }
 
 .form-input::placeholder {
   color: #595959;
-  font-size: 12px;
+  font-size: 12px
 }
 
 .form-input-btn {
@@ -120,15 +119,14 @@
   height: 50px;
   margin-top: 10px;
   border-radius: 2px;
-  background: linear-gradient(
-    90deg,
+  background: linear-gradient(90deg,
     rgb(39, 176, 255) 0%,
     rgb(0, 232, 236) 100%
   );
   outline: none;
   border: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1rem
 }
 
 .form-input-btn:hover {
@@ -138,7 +136,7 @@
     rgb(39, 143, 255) 0%,
     rgb(12, 99, 250) 100%
   );
-  transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out
 }
 
 .form-input-login {
@@ -146,11 +144,11 @@
   margin-top: 10px;
   color: #fff;
   width: 80%;
-  text-align: center;
+  text-align: center
 }
 
 .form-input-login a {
   text-decoration: none;
   color: #27cdff;
-  font-weight: 600;
+  font-weight: 600
 }
