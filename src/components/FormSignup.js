@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import '../styles/Form.css'
 
 const FormSignup = () => {
 
@@ -72,7 +73,7 @@ const FormSignup = () => {
         <button className='form-input-btn' type='submit'>Sign up</button>
 
         <span className='form-input-login'>
-          Already have an account? Login <a href='#'>HERE</a>
+          Already have an account? Login <a href='https://github.com/Leonamquintao'>HERE</a>
         </span>
       
       </form>
