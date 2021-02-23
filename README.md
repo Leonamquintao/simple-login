@@ -3,8 +3,11 @@
 Simple login form made with ReactJs with studies purpose.
 
 ## TIPS
+
+Create the boilerplate to each component:
+
 Use `ES7 React/Redux/GraphQL/React-Native snippets` by `dsznajder`
-Create the boilerplate to each component - Leonam
+
 > rafce
 
 ### Project result
